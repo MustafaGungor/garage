@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "7d3efa7f-1589-43f5-9698-b228702a89c5",
+		"name": "garage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "setGarage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"input\": [\"park 34-SO-1988 Black Car\",\n\"park 34-BO-1987 Red Truck\",\n\"park 34-VO-2018 Blue Jeep\",\n\"park 34-HBO-2020 Black Truck\",\n\"leave 3\",\n\"park 34-LO-2000 White Car\",\n\"status\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/garage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
